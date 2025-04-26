@@ -34,8 +34,8 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/tibirna/qgit/archive/qgit-2.10/qgit-2.10.tar.gz
-        sha256: 1fc74fbd25c8ccbee9f7d4a8817b0a82ffa5a3a281b324febe4e90ea7c721153
+        url: https://github.com/tibirna/qgit/archive/qgit-2.11/qgit-2.11.tar.gz
+        sha256: 09c0feb593108eceda19320823516a4c627cdbd991cbe126d243653336c8d0cd
         x-checker-data:
           type: anitya
           project-id: 10091
