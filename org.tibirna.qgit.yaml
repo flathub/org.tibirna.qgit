@@ -34,16 +34,10 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/tibirna/qgit/archive/qgit-2.10/qgit-2.10.tar.gz
-        sha256: 1fc74fbd25c8ccbee9f7d4a8817b0a82ffa5a3a281b324febe4e90ea7c721153
+        url: https://github.com/tibirna/qgit/archive/qgit-2.11/qgit-2.11.tar.gz
+        sha256: 1c488a2328030641e3560cb86fb8891d2e8cdc934d910e73a0f19f9c8ee15a7d
         x-checker-data:
           type: anitya
           project-id: 10091
           stable-only: true
           url-template: https://github.com/tibirna/qgit/archive/qgit-$version/qgit-$version.tar.gz
-      - type: patch
-        path: 0001-appdata-Add-developer-oars-rating-launchable-release.patch
-      - type: patch
-        path: 0002-appdata-Add-screenshots.patch
-      - type: patch
-        path: 0001-appdata-Re-add-default-tag-to-first-screenshot.patch
